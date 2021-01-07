@@ -1,0 +1,7 @@
+atm:
+  balance: 1000000
+
+customer:
+  acctNo: Ada
+  pin: Ad123
+  balance: 500000

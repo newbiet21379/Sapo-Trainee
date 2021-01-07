@@ -1,0 +1,47 @@
+
+Category Detail File
+
+//Detail Category
+// <div>
+// 							<label>
+// 								<strong> Create Date:</strong>
+// 							</label>{' '}
+// 							{currentCategory.create_date}
+// 						</div>
+// 						<div>
+// 							<label>
+// 								<strong> Fix Date:</strong>
+// 							</label>{' '}
+// 							{currentCategory.fix_date}
+// 						</div>
+// 						<div>
+// 							<label>
+// 								<strong> Description :</strong>
+// 							</label>{' '}
+// 							{currentCategory.description}
+// 						</div>
+//Product of Category
+// <div>
+// 							<label>
+// 								<strong>
+// 									{' '}
+// 									Product in Category
+// 									{currentCategory.name}:
+// 								</strong>
+// 							</label>{' '}
+							
+// 						</div>
+// <ul className="list-group">
+// 								{currentCategory.productList &&
+// 									currentCategory.productList.map((product, index) => (
+// 										<li
+// 											className={
+// 												'list-group-item ' + (index === currentIndexProduct ? 'active' : '')
+// 											}
+// 											onClick={() => this.setActiveProduct(product, index)}
+// 											key={index}
+// 										>
+// 											{product.name}
+// 										</li>
+// 									))}
+// 							</ul>
